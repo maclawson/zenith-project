@@ -1,0 +1,345 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+#home{
+    width: 100%;
+    height: 630px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+}
+#pagelog{
+    width: 100%;
+    height: 150px;
+    border: 1px solid;
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    text-align: center;
+}
+#icon{
+    width: 20px;
+    height: 30px;
+    border: 2px solid;
+    /* margin: 5px; */
+    margin-bottom: 45px;
+    margin-right: 30px;
+}
+#welcome{
+    width: 200px;
+    height: 40px;
+    border: 2px solid;
+    font-size: larger;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 40px;
+    margin-left: 30%;
+    margin-bottom: 40px;
+
+}
+#log{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    /* margin: 5px; */
+    margin-right: 5px;
+    margin-bottom: 40px;
+    margin-left: 25%;
+}
+#acctsection{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid; */
+    /* margin: 5px; */
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+    /* align-items: center; */
+}
+.number{
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+#Number input{
+    /* width: 80%; */
+    height: 40px;
+    margin-left: 1%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+
+}
+.password{
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+#Password input{
+    /* width: 50%; */
+    height: 40px;
+    margin-left: 1%;
+    margin-top: 5px;
+
+}
+.remember{
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid; */
+}
+#Remember input{
+    width: 50%;
+    height: 25px;
+    margin-left: 30%;
+    /* border: 2px solid; */
+}
+#signupsection{
+    width: 100%;
+    height: 90px;
+    /* border: 2px solid; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 50%;
+    height: 50px;
+    border: 2px solid;
+    margin-left: 10%;
+    margin-right: 2%;
+    color: white;
+    background-color: brown;
+}
+#forgetsection{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#forget{
+    font-size: large;
+    /* border: 2px solid; */
+    margin-left: 10%;
+}
+#continue{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+}
+#con{
+    width: 7%;
+    height: 20px;
+    /* border: 2px solid; */
+    font-size: larger;
+}
+#Internet{
+    width: 10%;
+    height: 20px;
+    /* border: 2px solid; */
+    font-size: larger;
+    color: brown;
+}
+
+@media screen and (max-width:578px) {
+    #home{
+        height: 624px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #pagelog{
+        width: 100%;
+        height: 150px;
+        border: 1px solid;
+        /* background-color: brown;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: end;
+        text-align: center; */
+    }
+    #icon{
+        width: 70%;
+        height: 30px;
+        border: 2px solid;
+        margin: 5px;
+        margin-bottom: 45px;
+        margin-right: 30px;
+    }
+    #welcome{
+        width: 100px;
+        height: 40px;
+        border: 2px solid;
+        font-size: larger;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-right: 40px;
+        margin-left: 30%;
+        margin-bottom: 40px;
+    
+    }
+    #log{
+        width: 50px;
+        height: 50px;
+        border: 2px solid;
+        /* margin: 5px; */
+        margin-right: 5px;
+        margin-bottom: 40px;
+        margin-left: 25%;
+    }
+    #acctsection{
+        width: 100%;
+        height: 200px;
+        border: 2px solid;
+        margin: 5px;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        align-items: center;
+    }
+    .number{
+        width: 50%;
+        margin-left: 8%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: larger;
+    }
+    #Number input{
+        /* width: 80%; */
+        height: 40px;
+        margin-left: 1%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    
+    
+    }
+    .password{
+        width: 50%;
+        margin-left: 8%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: larger;
+    }
+    #Password input{
+        /* width: 50%; */
+        height: 40px;
+        margin-left: 1%;
+        margin-top: 5px;
+    
+    }
+    .remember{
+        width: 50%;
+        margin-left: 8%;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid; */
+    }
+    #Remember input{
+        width: 50%;
+        height: 25px;
+        margin-left: 30%;
+        /* border: 2px solid; */
+    }
+    #signupsection{
+        width: 100%;
+        height: 90px;
+        /* border: 2px solid; */
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        width: 50%;
+        height: 50px;
+        border: 2px solid;
+        margin-left: 10%;
+        margin-right: 2%;
+        color: white;
+        background-color: brown;
+    }
+    #forgetsection{
+        width: 90%;
+        height: 50px;
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+    }
+    #forget{
+        font-size: large;
+        border: 2px solid;
+        margin-left: 1%;
+    }
+    #continue{
+        width: 90%;
+        height: 50px;
+        border: 2px solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 5%;
+    }
+    #con{
+        width: 40%;
+        height: 20px;
+        border: 2px solid;
+        font-size: larger;
+    }
+    #Internet{
+        width: 55%;
+        height: 20px;
+        border: 2px solid;
+        font-size: larger;
+        color: brown;
+    }
+       
+    
+
+
+
+
+
+
+
+
+
+}
